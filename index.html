@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid Cheatsheet</title>
+        <link href="resources/styles.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS Grids Cheatsheet</h1>
+        </header>
+        <h2>By Lola Oretade</h2>
+        <section class="tags">
+            <table>
+                <tr class="title">
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td class="tag">grid-template-columns</td>
+                    <td>Grid Template Columns</td>
+                    <td>To specify the number of columns of the grid and the widths of each column, the CSS property grid-template-columns is used on the grid container. The number of width values determines the number of columns and each width value can be either in pixels(px) or percentages(%).</td>
+                </tr>
+
+
+                <tr>
+                    <td class="tag">grid-gap</td>
+                    <td>Grid Gap</td>
+                    <td>The CSS grid-gap property is a shorthand way of setting the two properties grid-row-gap and grid-column-gap. It is used to determine the size of the gap between each row and each column. The first value sets the size of the gap between rows and while the second value sets the size of the gap between columns.</td>
+                </tr>
+
+                <tr>
+                    <td class="tag">grid-area</td>
+                    <td>CSS Grid-Area</td>
+                    <td>The CSS grid-area property specifies a grid item's size and location in a grid layout and is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end in that order. Each value is separated by a /.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tag">grid-row-gap: length;</td>
+                    <td>CSS grid-row-gap</td>
+                    <td>The CSS grid-row-gap property determines the amount of blank space between each row in a CSS grid layout or in other words, sets the size of the gap (gutter) between an element’s grid rows. The grid-column-gap provides the same functionality for space between grid columns.</td>
+                </tr>
+
+                <tr>
+                    <td class="tag">grid-template-areas</td>
+                    <td>CSS grid-template-areas</td>
+                    <td>The CSS grid-template-areas property allows the naming of sections of a webpage to use as values in the grid-row-start, grid-row-end, grid-column-start, grid-column-end, and grid-area properties. They specify named grid areas within a CSS grid.</td>
+                </tr>
+            </table>
+
+        </section>
+
+        <section class="attributes">
+            <table>
+                <tr class="title">
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td class="tag">display: grid</td>
+                    <td>CSS Block Level Grid</td>
+                    <td>To set an HTML element into a block-level grid container use display: grid property/value. The nested elements inside this element are called grid items.</td>
+                </tr>
+
+                <tr>
+                    <td class="tag">display: inline-grid</td>
+                    <td>CSS Inline Level Grid</td>
+                    <td>TThe difference between the values inline-grid and grid is that the inline-grid will make the element inline while grid will make it a block-level element.</td>
+                </tr>
+
+                <tr>
+                    <td class="tag">fr</td>
+                    <td>fr Relative Unit</td>
+                    <td>The CSS grid relative sizing unit fr is used to split rows and/or columns into proportional distances. Each fr unit is a fraction of the grid’s overall length and width. If a fixed unit is used along with fr (like pixels for example), then the fr units will only be proportional to the distance left over.</td>
+                </tr>
+
+                <tr>
+                    <td class="tag">minmax(num, num)</td>
+                    <td>minmax() Function</td>
+                    <td>Accepts 2 parameters:
+                        The first parameter is the minimum size of a row or column.
+                        The second parameter is the maximum size.
+                        The grid must have a variable width for the minmax() function.
+                        If the maximum value is less than the minimum, then the maximum value is ignored and only the minimum value is used. Works for all grid-stemplate properties.</td>
+                </tr>
+            </table>
+        </section>
+
+    </body>
+</html>
